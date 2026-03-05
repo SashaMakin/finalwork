@@ -96,7 +96,7 @@ h1 {
 .aside .aside_menuTop {
  width: 160px;
 }
-
+.center {top: -12px;}
 .closure {
   width: 40px;
   height: 40px;
@@ -741,7 +741,7 @@ display: flex;
 }
 
 .buttonTableRepair {display: flex;  flex-direction: column; justify-content: flex-end; height: 135px;}
-
+.center {top: -12px;}
 @media screen and (max-width: 768px) {
 
 .services .tablet,
@@ -896,7 +896,7 @@ width: 260px;}
 }
 
 }
-
+.center {top: -12px;}
 @media screen and (min-width: 361px) {
   .menuMobileShow {
     width: 360px;
@@ -910,7 +910,7 @@ width: 260px;}
 @media screen and (min-width: 1440px) {
   .menuMobileShow,
   .menuCallMobile,
-
+   .highlight, .hiMenu,
   .menuMailMobile,
   .overlayShow {display: none;}
 
